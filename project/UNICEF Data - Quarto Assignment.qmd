@@ -1,0 +1,55 @@
+---
+title: "Unraveling UNICEF Data"
+subtitle: Exploring GDP and Obseravation Value of countries based off Unicef Data
+author: Andrew Lewis
+date: 2024/04/24
+format:
+  html:
+    toc: true
+    theme: minty
+    backgroundcolor: lightgrey
+warnings: false
+messgaes: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+#libraries 
+library(tidyverse)
+```
+
+
+```{r}
+## Introduction 
+
+This report provides a comprehensive analysis of global economic patterns through a series of visualisations: a GDP map highlighting economic distribution worldwide, a bar plot comparing countries' GDP values, a scatter plot exploring the relationship between GDP and population and a timeline series charting GDP growth over time. Each visualisation offers unique insights into the dynamics of the global economy, from geographical disparities and population impact to economic trends and development trajectories. Together, they paint a multifaceted picture of global economic health, guiding readers through the complexities of GDP as a critical measure of economic prosperity and growth.
+
+## GDP Map 
+
+ 
+The GDP map visually represents the economic output of countries around the world, using colour gradients to illustrate variations in GDP levels. It allows quick identification of economic powerhouses and regions with lower economic activity.
+
+## Observation Value by Country 
+
+ 
+
+The observation value bar plot ranks countries by their GDP, using bars to compare economic sizes. This visualization highlights the disparities in wealth and economic capacity between nations, offering a clear, comparative perspective.
+
+## Scatter Plot GDP vs Population
+
+ 
+The scatter plot compares GDP against population for various countries, revealing correlations or anomalies in how population size influences economic output. This visualisation aids in identifying patterns and outliers in the global economic landscape.
+
+## Timeline Series Line chart GDP
+
+ 
+
+The timeline series line chart traces the GDP growth of countries over time, illustrating trends, fluctuations, and economic milestones. It provides a historical view of economic development, highlighting how economies evolve and respond to global events.
+
+## Conclusion
+
+This report's visual analysis of global GDP through maps, plots, and charts offers deep insights into economic disparities, population impacts, and growth trends. It highlights the complex interplay between geography, population, and economic policy, fostering a better understanding of global economic health and development patterns.
+
+
